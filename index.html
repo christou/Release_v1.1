@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+		<!-- BASICS -->
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+		
+        <title>MountainBytes</title>
+		
+     	<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />	
+		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/default.css">
+
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/content.css" />
+		<link type="text/css" rel="stylesheet" href="css/login.css" />
+		<link rel="stylesheet" type="text/css" href="css/rrssb.css" />
+    	
+		<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all2.css" />
+		<link type="text/css" rel="stylesheet" href="css/demo1.css" />
+		<style type="text/css">
+           h1 {text-align: center;
+		   font-size: 38px;
+		   line-height:40px;}
+        </style>
+		
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.hammer.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
+					
+	
+		
+		<script type="text/javascript">
+
+	
+			
+
+			//	The menu on the right
+			$(function() {
+
+				var $menu = $('nav#menu-right');
+				    $html = $('html, body');
+
+				$menu.mmenu({
+					position	: 'right',
+					classes		: 'mm-light',
+					dragOpen	: true,
+					counters	: true,
+					searchfield	: false,
+					labels		: {
+						fixed		: !$.mmenu.support.touch
+					},
+					
+				});
+
+				$menu.find( 'li > a' ).on( // ne marche pas comprenddre avec exemple one page
+					'click',
+					function()
+					{
+						var href = $(this).attr( 'href' );
+
+						//	if the clicked link is linked to an anchor, scroll the page to that anchor 
+						if ( href.slice( 0, 1 ) == '#' )
+						{
+							$menu.one(
+								'closed.mm',
+								function()
+								{
+									setTimeout(
+										function()
+										{
+											$html.animate({
+												scrollTop: $( href ).offset().top
+											});	
+										}, 10
+									);	
+								}
+							);						
+						}
+					}
+				);
+			});
+		</script>
+       
+     
+</head>
+<body>
+  
+<div id="page">
+			<div id="barre">
+				    <a href="#menu-right" class="friends right"></a>
+					<div class="btn-group">
+	                </div>
+			</div>
+			        
+     
+	 <section id="content" >
+			<div class="container"> 
+				<div class="row">
+				     <div class="col-md-12 ">
+					      <img src="media/Logo.png"  height="100%" width="100%"> 
+					 </div>
+				</div>
+			</div>
+</section>
+
+<section id="content2" >
+			<div class="container"> 
+				<div class="row">
+				      <div class="col-md-12 ">   
+                            <h1 class="text-center text-primary"> Visite virtuelle d'Inria Grenoble Rhône-Alpes</h1>
+                            
+					 </div>
+			     </div>
+			</div>
+</section>
+
+<section id="content3" >
+			<div class="container"> 
+				<div class="row mar-bot40">
+				     <div class="col-md-12 align-center">
+                     	<a class="btn btn-primary btn-lg" href="zxing://scan/?ret=http%3A%2F%2Fchristou.github.io/Release_v1.0_FdS%2F%7BCODE%7D">Scan un QR-code</a>
+					 </div>
+	             </div>
+			</div>
+</section>
+			<nav id="menu-right"">
+				<ul>
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="bip_master.html">BIP</a></li>
+					<li><a href="nao_master.html">NAO</a></li>
+					<li><a href="grimage_master.html">Grimage</a></li>
+                    <li><a href="hall_master.html">Hall d'Inria</a></li>
+                    <li><a href="atelier_master.html">Atelier Robotique</a></li>
+                    <li><a href="bureau_master.html">Bureau Chercheur</a></li>
+                    <li><a href="cluster_master.html">Cluster</a></li>						
+		    		<li><a href="zxing://scan/?ret=http%3A%2F%2Fchristou.github.io/Release_v1.0_FdS%2F%7BCODE%7D">Scan un QR-code</a></li>
+					
+				</ul>
+			</nav>
+		
+</div>
+
+		<!--Début pied de page avec lien réseaux sociaux-->	
+		
+	<section id="panel-footer" class="bg-white navbar-fixed-bottom">
+		<div class="container"> 
+
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+					<div class="align-justified">
+                        <p>Le projet Mountain Bytes est une collaboration : </p>
+                    </div>
+                </div>
+                
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4" >
+					<div class="nav-tabs.nav-justified ">
+                        <img src="media/images/logo_inria_new.gif" width="100%"></img>
+                    </div>
+                </div>
+                
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4" >
+					<div class="nav-tabs.nav-justified">
+                        <img src="media/images/organization_logo.png" width="100%"></img>
+                    </div>
+                </div>        
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4" >
+					<div class="nav-tabs.nav-justified">
+                        <img  src="media/images/lacasemate-logo-br.png" width="100%"></img>
+                    </div>
+                </div>
+
+		</div>
+	</section>	
+
+
+	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	
+	<script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="js/skrollr.min.js"></script>		
+	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+	<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.appear.js"></script>
+
+    <script src="js/main.js"></script>
+       
+	
+	
+	</body>
+		
+</html>

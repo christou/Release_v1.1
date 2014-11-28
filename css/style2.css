@@ -1,0 +1,59 @@
+/* ==== Google font ==== */
+@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+/* === fontawesome === */
+@import url('font-awesome.css');
+/* ==== overwrite bootstrap standard ==== */
+@import url('overwrite.css');
+@import url('animate.css');
+/*==========================================================================
+  General
+  ========================================================================== */
+body {
+	color:#FEFEFE;
+	background: #004D6A;
+	font-size:40px;
+	line-height: 1.6em;
+	font-weight: 300;
+	text-shadow: none;
+}
+
+.clear {
+	clear: both;
+}
+
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Lato', sans-serif;
+}
+h1{
+color:#FEFEFE;
+}
+h2, h3, h4, h5, h6 {
+	
+}
+
+h1,h2,h3,h4,h5,h6 {
+	
+}
+h1 { font-size: 40px; line-height: 30px; }
+h2 { font-size: 32px; }
+
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+
+#content{
+
+  padding-top: 60px;
+
+}
+#content2{
+
+  padding-top: 60px;
+
+}
+#content3{
+  padding-right: 62px;
+  padding-top: 60px;
+  
+
+}
+

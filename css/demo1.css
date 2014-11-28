@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,300,500);/* google font tres bien */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700);
+html, body
+{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
+	
+	overflow:hidden;/*cacher la barre de scroll*/
+	line-height: 22px;
+    
+	
+	-webkit-text-size-adjust: none;
+}
+
+
+body *
+{
+	text-shadow: none;
+}
+h1, h2, h3, h4, h5, h6
+{
+
+	
+	font-size: 18pxpx;
+	
+}
+h1, h2, h3
+{
+	font-size: 26px;
+}
+h4, h5, h6
+{
+	font-size: 16px;
+}
+p
+{
+	margin: 0 0 10px 0;
+	line-height:45px; 
+}
+
+pre
+{
+	font-size: 12px;
+	width: 100%;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+#page nav
+{
+	
+	display: none;
+}
+
+
+#barre,
+.barre,
+#footer
+{
+
+	font-size: 35px;
+	
+	color: #fff;
+	
+	line-height: 40px;
+	height: 40px;
+	
+	
+}
+#barre a,
+.barre a
+{
+	background: center center no-repeat transparent;
+	
+    
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+#barre a.friends,
+.barre a.friends
+{
+	background-image: url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADhJREFUeNpi/P//PwOtARMDHQBdLGFBYtMq3BiHT3DRPU4YR4NrNAmPJuHRJDyahEeT8Ii3BCDAAF0WBj5Er5idAAAAAElFTkSuQmCC );
+}
+#barre a.right,
+.barre a.right
+{
+	left: auto;
+	right: 10px;
+}
+
