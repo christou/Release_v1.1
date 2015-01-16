@@ -1,0 +1,247 @@
+{
+   "lom:lom":{
+      "-xmlns:lom":"http://ltsc.ieee.org/xsd/LOM",
+      "-xmlns:lomfr":"http://www.lom-fr.fr/xsd/LOMFR",
+      "lom:general":{
+         "lom:identifier":{
+            "lom:catalog":"URI",
+            "lom:entry":"/nao_master.html"
+         },
+         "lom:title":{
+            "lom:string":{
+               "-language":"fre",
+               "#text":"NAO, Robot Social"
+            }
+         },
+         "lom:language":"fre",
+         "lom:description":{
+            "lom:associatedPicture":{
+               "lom:catalog":"media/POI_NAO/NAOposter.jpg"
+            },
+            "lom:associatedVideo": [
+            	{
+               "lom:catalog":"media/POI_NAO/MBytes_NAO.mp4"
+               },
+               {
+               "lom:catalog":"media/POI_NAO/MBytes_NAO.ogv"
+               },
+               {
+               "lom:catalog":"media/POI_NAO/MBytes_BIP.webm"
+               }
+            ],
+            "lom:string":{
+               "-language":"fre",
+               "#text":"Avec le robot Nao, il est possible d'expérimenter les différentes compétences audiovisuelles nécessaires au développement du concept de robot social. Nao mesure 60 cm de haut pour 30 cm de large ; il est équipé de caméras stéréoscopiques et de microphones. Trier et analyser les données auditives et visuelles récoltées par les capteurs, pour en tirer des informations riches et précises sur l’environnement, la localisation d'une personne, ses intentions de communication est le défi scientifique majeur. A terme, pouvoir détecter et reconnaître la présence humaine, comprendre les gestes et la parole des interlocuteurs et communiquer en synthétisant un comportement approprié seront les fonctions cognitives simulées. "
+            }
+         }
+      },
+      "lom:keyword": [
+        {
+          "lom:string": {
+            "-language": "fre",
+            "#text": "Robotique"
+          }
+        },
+        {
+          "lom:string": {
+            "-language": "fre",
+            "#text": "Réconnaissance audio-visuelle"
+          }
+        },
+        {
+          "lom:string": {
+            "-language": "fre",
+            "#text": "Robot Social"
+          }
+        }
+      ],
+      "lom:relation":[
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"ispartof"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 2"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"La vision d'un robot"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_NAO/Vision_robot.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"La vision binoculaire humaine permet la perception du relief. Chaque œil voit une image légèrement différente, et c'est à partir de ces deux images correspondant à des points de vue légèrement décalés selon leur distance (davantage pour les objets proches que lointains) que le cerveau reconstruit une information de profondeur. En vision par ordinateur, et pour un robot par exemple, le même calcul géométrique permet de déduire la distance des points des objets, donc leur forme 3D à partir de deux caméras. Plus étonnant encore, les mathématiciens ont montré que ce même calcul permet de calibrer ces caméras, de la même façon que notre vision humaine fournit des mesures visuelles assez précises à notre cerveau. "
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"ispartof"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 2"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Qui me parle?"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_NAO/qui-me-parle.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Les humains localisent la provenance d’une voix d'une personne ou d’une musique, même dans une ambiance sonore complexe. Ils peuvent donc rester attentif à un interlocuteur donné. Qu’un système artificiel réalise le même calcul de localisation et de séparation de sons reste un défi scientifique. Il est néanmoins possible de localiser une source sonore unique à l’aide de 2 microphones en détectant le léger décalage temporel entre les 2 signaux reçus. Un robot peut ainsi tourner la tête vers la source localisée. Lorsque plusieurs personnes parlent en même temps ou que l’environnement sonore est bruyant, des méthodes d'apprentissage qui établissent un lien entres les indices auditifs perçus et les positions des sources, ont montré une grande efficacité à la fois en localisation et en séparation de sons. "
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"ispartof"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 3"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Kompaï, robot compagnon"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_BIP/BIPn2.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"BIP est le premier robot marcheur anthropomorphe: il est doté de jambes, d'un bassin et d'articulations dont la morphologie ressemble à celle d'un être humain. "
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"internal link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 3",
+                  "lom:entry":"/bip_master.html"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"BIP, Robot Bipède"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_BIP/BIPn2.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"BIP est le premier robot marcheur anthropomorphe: il est doté de jambes, d'un bassin et d'articulations dont la morphologie ressemble à celle d'un être humain. "
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"external link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 3",
+                  "lom:entry":"https://flowers.inria.fr"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Poppy"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/Flottant/Poppy3.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Petit robot humanoïde, open-source et imprimé en 3D créé par l'équipe de recherche Flowers."
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"external link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 4",
+                  "lom:entry":"http://www.inriality.fr/informatique/robotique/interaction/les-robots-sinvitent"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"En savoir plus"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/images/ensavoir.svg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Cocktail party"
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"external link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 4",
+                  "lom:entry":"https://interstices.info/machines-intelligentes"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"En savoir plus"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/images/ensavoir.svg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Machines intelligentes sur Interstices"
+                  }
+               }
+            }
+         }
+      ]
+   }
+}
