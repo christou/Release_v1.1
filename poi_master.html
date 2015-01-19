@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="css/bootstrap-theme.css">
         <link rel="stylesheet" href="css/style.css">  
 		<link rel="stylesheet" href="css/default.css">
-		<link rel="stylesheet" href="css/jquery.share.ccs">
+		<link rel="stylesheet" href="css/jquery.share.css">
 		<link rel="shortcut icon" href="../favicon.ico">
 		
 		<link rel="stylesheet" type="text/css" href="css/tooltip-curved.css" />
@@ -37,7 +37,7 @@
 		
     </head>
 	 
-    <body>
+    <body ng-app="myApp">
 
 	<!-- /////////////////////////////////////////////////////////////////////// -->		 	    
 
@@ -50,7 +50,7 @@
 	   </nav>
 	   <!-- Fin barre de menu -->
 
-	<div ng-app="myApp" ng-controller="contentController">
+	<div ng-controller="contentController">
    <!---------- Début contenu -------------->
         <!-- Contenu Master -->
 		<section id="master" class="featured">
@@ -69,7 +69,7 @@
 				
 						 <div class="col-lg-6 video">
 						 <p>
-			              <!-- ------------ Videogular ---------- -->
+			              <!-- 
 							<div ng-app="myApp">
 								<div ng-controller="HomeCtrl as controller">
 									<videogular vg-theme="controller.config.theme">
@@ -79,7 +79,7 @@
 								</div>
 							</div>
 
-			              <!--  --------------------------------- -->
+ -->
 						
 							<!-- des boutons des réseaux sociaux -->								  
 							<!-- Buttons start here. Copy this ul to your document. -->
@@ -350,7 +350,6 @@
 	<script src="js/jquery.appear.js"></script>
 	<script src="js/purl.js"></script>	
 		
-    <script src="js/modernizr.custom.js"></script>
 	<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>  
 	<script src="js/classie.js"></script>
 	<!-- script des buttons des réseaux sociaux avec Sharrre -->
@@ -367,7 +366,30 @@
 
 	<script>
 		
-		'use strict';
+
+
+	var app = angular.module('myApp', [
+	               					"ngSanitize",
+	            					"com.2fdevs.videogular",
+	            					"com.2fdevs.videogular.plugins.controls",
+	            					"com.2fdevs.videogular.plugins.overlayplay",
+	            					"com.2fdevs.videogular.plugins.poster"
+	            					]);
+
+	app.controller('contentController', function($http, $scope) {
+	  $http.get($.url(document.location).param('id')).
+	    success(function(data) {
+	      console.log(data); 	
+	      $scope.lom = data;
+	    }).
+	    error(function(data) {
+	      // log error
+	    });
+	});
+
+
+	
+/*	
 		angular.module('myApp',
 					[
 					"ngSanitize",
@@ -384,25 +406,24 @@
 						  			console.log(response); 
 						  			$scope.lom = response;  
 									}); 			
-
 						}		
-
 				);
-				//.controller('HomeCtrl',
-				//	["$sce", function ($sce) {
-				//		this.config = {
-				//			sources: [
-				//				{src: $sce.trustAsResourceUrl("{{ lom['lom:lom']['lom:general']['lom:description']['lom:associatedVideo'][0]['lom:catalog'] }}"), type: "video/mp4"},
-				//				{src: $sce.trustAsResourceUrl("{{ lom['lom:lom']['lom:general']['lom:description']['lom:associatedVideo'][1]['lom:catalog'] }}"), type: "video/webm"},
-				//				{src: $sce.trustAsResourceUrl("{{ lom['lom:lom']['lom:general']['lom:description']['lom:associatedVideo'][2]['lom:catalog'] }}"), type: "video/ogg"}
-				//			],
-				//			theme: "bower_components/videogular-themes-default/videogular.css",
-				//			plugins: {
-				//				poster: "{{ lom['lom:lom']['lom:general']['lom:description']['lom:associatedPicture']['lom:catalog'] }}"
-				//			}
-				//		};
-				//	}]
-				//	);
+				.controller('HomeCtrl',
+					["$sce", function ($sce) {
+						this.config = {
+							sources: [
+								{src: $sce.trustAsResourceUrl("{{ lom['lom:lom']['lom:general']['lom:description']['lom:associatedVideo'][0]['lom:catalog'] }}"), type: "video/mp4"},
+								{src: $sce.trustAsResourceUrl("{{ lom['lom:lom']['lom:general']['lom:description']['lom:associatedVideo'][1]['lom:catalog'] }}"), type: "video/webm"},
+								{src: $sce.trustAsResourceUrl("{{ lom['lom:lom']['lom:general']['lom:description']['lom:associatedVideo'][2]['lom:catalog'] }}"), type: "video/ogg"}
+							],
+							theme: "bower_components/videogular-themes-default/videogular.css",
+							plugins: {
+								poster: "{{ lom['lom:lom']['lom:general']['lom:description']['lom:associatedPicture']['lom:catalog'] }}"
+							}
+						};
+					}]
+					);
+*/
 		</script>						
 
 	
