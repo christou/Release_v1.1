@@ -125,7 +125,7 @@
                },
                "lom:description":{
                   "lom:associatedPicture":{
-                     "lom:catalog":"media/Flottant/kompai.jpg"
+                     "lom:catalog":"media/Flottant/kompai.png"
                   },
                   "lom:string":{
                      "-language":"fre",
