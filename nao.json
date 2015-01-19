@@ -73,7 +73,7 @@
                },
                "lom:description":{
                   "lom:associatedPicture":{
-                     "lom:catalog":"media/POI_NAO/Vision_robot.jpg"
+                     "lom:catalog":"media/POI_NAO/Vision_robot.png"
                   },
                   "lom:string":{
                      "-language":"fre",
@@ -99,7 +99,7 @@
                },
                "lom:description":{
                   "lom:associatedPicture":{
-                     "lom:catalog":"media/POI_NAO/qui-me-parle.jpg"
+                     "lom:catalog":"media/POI_NAO/qui-me-parle.png"
                   },
                   "lom:string":{
                      "-language":"fre",
@@ -125,11 +125,11 @@
                },
                "lom:description":{
                   "lom:associatedPicture":{
-                     "lom:catalog":"media/POI_BIP/BIPn2.jpg"
+                     "lom:catalog":"media/Flottant/kompai.jpg"
                   },
                   "lom:string":{
                      "-language":"fre",
-                     "#text":"BIP est le premier robot marcheur anthropomorphe: il est doté de jambes, d'un bassin et d'articulations dont la morphologie ressemble à celle d'un être humain. "
+                     "#text":"Kompaï est un robot compagnon qui permet aux personnes dépendantes et/ou handicapées de rester chez elles le plus longtemps possible en toute sécurité et en lien permanent avec le monde extérieur, grâce à son accès internet et applications dédiées."
                   }
                }
             }

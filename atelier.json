@@ -10,7 +10,7 @@
          "lom:title":{
             "lom:string":{
                "-language":"fre",
-               "#text":"Grimage - Interaction avec les mondes virtuels"
+               "#text":"L'atelier robotique"
             }
          },
          "lom:language":"fre",
@@ -31,7 +31,7 @@
             ],
             "lom:string":{
                "-language":"fre",
-               "#text":"La plateforme de rÃ©alitÃ© virtuelle Grimage calcule, en temps rÃ©el, le modÃ¨le numÃ©rique 3D d'une personne ou dâ€™un objet, lâ€™intÃ¨gre dans un univers 3D virtuel, tout en simulant ses interactions et contacts physiques avec son univers virtuel. Le point clÃ© est lâ€™absence dâ€™Ã©quipements invasifs fixÃ©s sur lâ€™utilisateur. Tout se fait par lâ€™analyse vidÃ©o du sujet avec un systÃ¨me multi-camÃ©ras. Cela permet l'interaction naturelle avec des objets virtuels, solides ou dÃ©formables. UtilisÃ© par les chercheurs pendant 10 ans, cet outil de recherche de niveau international a permis dâ€™explorer la modÃ©lisation 3D, la simulation dâ€™interactions physiques avec les objets, mais aussi les performances du calcul parallÃ¨le pouvant fonctionner en temps rÃ©el. "
+               "#text":"La halle robotique est la première salle expérimentale qui a été installée dans le centre, pour les besoins des équipes de recherche. Elle a été construite et équipée pour expérimenter différents systèmes robotisés « intelligents » : des bras manipulateurs, des robots – dont le robot bipède BIP -, des véhicules autonomes, des fauteuils roulants d’assistance à la mobilité ou des réseaux d’objets communicants. Attenants à la salle, deux ateliers électronique et mécanique permettent de construire des pièces ou objets spécifiques pour les besoins d’expérimentations. Des ingénieurs et des étudiants travaillent tous les jours dans ce lieu pour développer des logiciels et expérimentations pour les chercheurs. "
             }
          }
       },
@@ -39,19 +39,19 @@
         {
           "lom:string": {
             "-language": "fre",
-            "#text": "RÃ©alitÃ© Virtuelle"
+            "#text": "Atelier Robotique"
           }
         },
         {
           "lom:string": {
             "-language": "fre",
-            "#text": "ModÃ©lisation 3D"
+            "#text": "Halle Robotique"
           }
         },
         {
           "lom:string": {
             "-language": "fre",
-            "#text": "Calcul ParallÃ¨le"
+            "#text": "Véhicules autonomes"
           }
         }
       ],
@@ -68,16 +68,16 @@
                "lom:title":{
                   "lom:string":{
                      "-language":"fre",
-                     "#text":"Le calcul haute performance"
+                     "#text":"Véhicule d'aide à la conduite"
                   }
                },
                "lom:description":{
                   "lom:associatedPicture":{
-                     "lom:catalog":"media/Flottant/Grid5000.jpg"
+                     "lom:catalog":"media/POI_Atelier/Lexus2.jpg"
                   },
                   "lom:string":{
                      "-language":"fre",
-                     "#text":"Le datacenter hÃ©berge notamment une partie de la plate-forme Grid'5000, instrument scientifique unique pour les expÃ©rimentations dans les domaines du HPC, du Cloud, du Big data, et du rÃ©seau noamment. Mais il hÃ©berge Ã©galement des machines de la grille rÃ©gionale de calcul intensif CIMENT, ainsi que des machines d'acquisition multicamera et de traitement d'image (70 cameras !). Outre les connections 10Gbit/s avec Grid'5000 et CIMENT, le datacenter possÃ¨de Ã©galement des Ã©quipements rÃ©seau synchronisÃ©s par GPS avec le Japon. Enfin, il est Ã©quipÃ© de sondes de mesure Ã©nergÃ©tique permettant la recherche sur le Green Computing ! "
+                     "#text":"Véhicule avec caméras, capteurs et électronique embarquée pour aide à la conduite et à la prévention d'accidents."
                   }
                }
             }
@@ -94,16 +94,16 @@
                "lom:title":{
                   "lom:string":{
                      "-language":"fre",
-                     "#text":"Le rÃ©alisme des mondes virtuels"
+                     "#text":"Objets communicants"
                   }
                },
                "lom:description":{
                   "lom:associatedPicture":{
-                     "lom:catalog":"media/POI_Grimage/SOFA.jpg"
+                     "lom:catalog":"media/POI_Atelier/objets-communicants.png"
                   },
                   "lom:string":{
                      "-language":"fre",
-                     "#text":"Lâ€™interaction dâ€™un utilisateur avec des objets numÃ©riques virtuels est simulÃ©e grÃ¢ce Ã  lâ€™environnement logiciel SOFA dÃ©diÃ© aux simulations physiques interactives en temps rÃ©el. Ce logiciel permet de recrÃ©er la physique du monde rÃ©el, en simulant les effets de la mÃ©canique de Newton : la gravitÃ©, les chocs, les forces et mouvements des objets solides et fluides."
+                     "#text":"Au plafond : une partie de la palteforme FIT (Internet des objets) pour tester des réseaux de capteurs et d'objets communicants à large échelle. Au total, près de 1024 capteurs sont déployés sur quatre sites : Lille, Grenoble, Rennes et Strasbourg. Enregistrant de multiples données, ces capteurs communicants répondent à un besoin accru de contrôler des phénomènes physiques et biologiques dans différents domaines : industriel, technique et scientifique, écologie et environnement, santé, sécurité, transport, domotique..."
                   }
                }
             }

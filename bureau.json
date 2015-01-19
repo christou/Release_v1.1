@@ -10,7 +10,7 @@
          "lom:title":{
             "lom:string":{
                "-language":"fre",
-               "#text":"Grimage - Interaction avec les mondes virtuels"
+               "#text":"Le bureau de chercheur"
             }
          },
          "lom:language":"fre",
@@ -31,7 +31,7 @@
             ],
             "lom:string":{
                "-language":"fre",
-               "#text":"La plateforme de réalité virtuelle Grimage calcule, en temps réel, le modèle numérique 3D d'une personne ou d’un objet, l’intègre dans un univers 3D virtuel, tout en simulant ses interactions et contacts physiques avec son univers virtuel. Le point clé est l’absence d’équipements invasifs fixés sur l’utilisateur. Tout se fait par l’analyse vidéo du sujet avec un système multi-caméras. Cela permet l'interaction naturelle avec des objets virtuels, solides ou déformables. Utilisé par les chercheurs pendant 10 ans, cet outil de recherche de niveau international a permis d’explorer la modélisation 3D, la simulation d’interactions physiques avec les objets, mais aussi les performances du calcul parallèle pouvant fonctionner en temps réel. "
+               "#text":"Bienvenue dans un bureau de chercheur en sciences du numérique ! Hormis une table de travail, un ordinateur et un téléphone, un bureau scientifique comporte souvent un tableau blanc pour faciliter les discussions de travail avec les collègues, du petit matériel électronique si le sujet de recherche est appliqué et expérimental, et des documents ou publications scientifiques à lire pour être informé des recherches d'autres collègues. Mais aussi: du thé ou du café, des chips ou des biscuits pour recharger les méninges, des souvenirs de participation à des conférences internationales, ou encore des décorations personnelles ! "
             }
          }
       },
