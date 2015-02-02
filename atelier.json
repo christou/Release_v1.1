@@ -1,0 +1,326 @@
+{
+   "lom:lom":{
+      "-xmlns:lom":"http://ltsc.ieee.org/xsd/LOM",
+      "-xmlns:lomfr":"http://www.lom-fr.fr/xsd/LOMFR",
+      "lom:general":{
+         "lom:identifier":{
+            "lom:catalog":"URI",
+            "lom:entry":"/grimage_master.html"
+         },
+         "lom:title":{
+            "lom:string":{
+               "-language":"fre",
+               "#text":"L'atelier robotique"
+            }
+         },
+         "lom:language":"fre",
+         "lom:description":{
+            "lom:associatedPicture":{
+               "lom:catalog":"media/POI_Grimage/Grimageposter.jpg"
+            },
+            "lom:associatedVideo": [
+            	{
+               "lom:catalog":"media/POI_Grimage/MBytes_GRIMAGE.mp4"
+               },
+               {
+               "lom:catalog":"media/POI_Grimage/MBytes_GRIMAGE.ogv"
+               },
+               {
+               "lom:catalog":"media/POI_Grimage/MBytes_GRIMAGE.webm"
+               }
+            ],
+            "lom:string":{
+               "-language":"fre",
+               "#text":"La halle robotique est la premiËre salle expÈrimentale qui a ÈtÈ installÈe dans le centre, pour les besoins des Èquipes de recherche. Elle a ÈtÈ construite et ÈquipÈe pour expÈrimenter diffÈrents systËmes robotisÈs ´ intelligents ª : des bras manipulateurs, des robots ñ dont le robot bipËde BIP -, des vÈhicules autonomes, des fauteuils roulants díassistance ‡ la mobilitÈ ou des rÈseaux díobjets communicants. Attenants ‡ la salle, deux ateliers Èlectronique et mÈcanique permettent de construire des piËces ou objets spÈcifiques pour les besoins díexpÈrimentations. Des ingÈnieurs et des Ètudiants travaillent tous les jours dans ce lieu pour dÈvelopper des logiciels et expÈrimentations pour les chercheurs. "
+            }
+         }
+      },
+      "lom:keyword": [
+        {
+          "lom:string": {
+            "-language": "fre",
+            "#text": "Atelier Robotique"
+          }
+        },
+        {
+          "lom:string": {
+            "-language": "fre",
+            "#text": "Halle Robotique"
+          }
+        },
+        {
+          "lom:string": {
+            "-language": "fre",
+            "#text": "VÈhicules autonomes"
+          }
+        }
+      ],
+      "lom:relation":[
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"ispartof"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 2"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"VÈhicule d'aide ‡ la conduite"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_Atelier/Lexus2.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"VÈhicule avec camÈras, capteurs et Èlectronique embarquÈe pour aide ‡ la conduite et ‡ la prÈvention d'accidents."
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"ispartof"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 2"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Objets communicants"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_Atelier/objets-communicants.png"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Au plafond : une partie de la palteforme FIT (Internet des objets) pour tester des rÈseaux de capteurs et d'objets communicants ‡ large Èchelle. Au total, prËs de 1024 capteurs sont dÈployÈs sur quatre sites : Lille, Grenoble, Rennes et Strasbourg. Enregistrant de multiples donnÈes, ces capteurs communicants rÈpondent ‡ un besoin accru de contrÙler des phÈnomËnes physiques et biologiques dans diffÈrents domaines : industriel, technique et scientifique, Ècologie et environnement, santÈ, sÈcuritÈ, transport, domotique..."
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"ispartof"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 2"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Qu'est-ce que la r√©alit√© virtuelle?"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_Grimage/Realitevirtuelle.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"La r√©alit√© virtuelle est une technologie qui consiste √† immerger un utilisateur dans un univers visuel, sonore et sensoriel dans lequel il peut √©voluer et avec lequel il peut interagir, le tout en temps r√©el. G√©n√©ralement, les sensations d‚Äôimmersion et d'interaction sont produites gr√¢ce √† un syst√®me de cam√©ras ou capteurs qui capturent, suivent et analysent les mouvements et positions de marqueurs fix√©s sur l‚Äôutilisateur. Ces syst√®mes permettent de calculer et produire les environnements visuels et sensoriels associ√©s aux positions et actions de l‚Äôutilisateur, en temps r√©el. "
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"ispartof"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 2"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Comment cr√©er un clone 3D?"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_Grimage/Clones_numeriques_3D.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"La plateforme Grimage utilise jusqu‚Äô√† une vingtaine de cam√©ras vid√©o et une trentaine d‚Äôordinateurs pour produire le mod√®le num√©rique 3D d‚Äôune personne ou d‚Äôun objet pr√©sent dans le champ de vue des cam√©ras. Un algorithme calcule l'enveloppe visuelle 3D des objets √† partir des silhouettes 2D issues des images vid√©o. Le r√©sultat obtenu est un maillage 3D de l‚Äôobjet film√©. Ce processus se r√©p√®te environ 30 fois par seconde, produisant des clones 3D virtuels et anim√©s des personnes ou objets r√©els. Pour la visualisation sur √©cran, les silhouettes sont textur√©es par plaquage des informations photom√©triques issues des cam√©ras. "
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"internal link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 3",
+                  "lom:entry":"/workbench_master.html"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Workbench, plan de travail virtuel"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_Grimage/workbenchn2.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"La plateforme Grimage utilise jusqu‚Äô√† une vingtaine de cam√©ras vid√©o et une trentaine d‚Äôordinateurs pour produire le mod√®le num√©rique 3D d‚Äôune personne ou d‚Äôun objet pr√©sent dans le champ de vue des cam√©ras. Un algorithme calcule l'enveloppe visuelle 3D des objets √† partir des silhouettes 2D issues des images vid√©o. Le r√©sultat obtenu est un maillage 3D de l‚Äôobjet film√©. Ce processus se r√©p√®te environ 30 fois par seconde, produisant des clones 3D virtuels et anim√©s des personnes ou objets r√©els. Pour la visualisation sur √©cran, les silhouettes sont textur√©es par plaquage des informations photom√©triques issues des cam√©ras. "
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"ispartof"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 3"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Immersia, l'immersion grand format"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_Grimage/Clones_numeriques_3D.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"La plateforme Grimage utilise jusqu‚Äô√† une vingtaine de cam√©ras vid√©o et une trentaine d‚Äôordinateurs pour produire le mod√®le num√©rique 3D d‚Äôune personne ou d‚Äôun objet pr√©sent dans le champ de vue des cam√©ras. Un algorithme calcule l'enveloppe visuelle 3D des objets √† partir des silhouettes 2D issues des images vid√©o. Le r√©sultat obtenu est un maillage 3D de l‚Äôobjet film√©. Ce processus se r√©p√®te environ 30 fois par seconde, produisant des clones 3D virtuels et anim√©s des personnes ou objets r√©els. Pour la visualisation sur √©cran, les silhouettes sont textur√©es par plaquage des informations photom√©triques issues des cam√©ras. "
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"external link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 4",
+                  "lom:entry":"https://interstices.info/grimage"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"En savoir plus"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/images/ensavoir.svg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Le projet Grimage sur Interstices"
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"external link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 4",
+                  "lom:entry":"https://interstices.info/simulation-radiologie"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"En savoir plus"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/images/ensavoir.svg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Simulation d'interaction sur Interstices"
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"external link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 4",
+                  "lom:entry":"https://interstices.info/reseaux-hpc"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"En savoir plus"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/images/ensavoir.svg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Calcul haute performance sur Interstices"
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"external link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 4",
+                  "lom:entry":"https://interstices.info/2d3d"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"En savoir plus"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/images/ensavoir.svg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Du 2D au 3D sur Interstices"
+                  }
+               }
+            }
+         }
+      ]
+   }
+}
