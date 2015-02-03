@@ -1,0 +1,275 @@
+{
+   "lom:lom":{
+      "-xmlns:lom":"http://ltsc.ieee.org/xsd/LOM",
+      "-xmlns:lomfr":"http://www.lom-fr.fr/xsd/LOMFR",
+      "lom:general":{
+         "lom:identifier":{
+            "lom:catalog":"URI",
+            "lom:entry":"/bip_master.html"
+         },
+         "lom:title":{
+            "lom:string":{
+               "-language":"fre",
+               "#text":"BIP, Robot Marcheur"
+            }
+         },
+         "lom:language":"fre",
+         "lom:description":{
+            "lom:associatedPicture":{
+               "lom:catalog":"media/POI_BIP/BIPposter.jpg"
+            },
+            "lom:associatedVideo": [
+            	{
+               "lom:catalog":"media/POI_BIP/MBytes_BIP.mp4"
+               },
+               {
+               "lom:catalog":"media/POI_BIP/MBytes_BIP.ogv"
+               },
+               {
+               "lom:catalog":"media/POI_BIP/MBytes_BIP.webm"
+               }
+            ],
+            "lom:string":{
+               "-language":"fre",
+               "#text":"BIP est le premier robot marcheur anthropomorphe: il est doté de jambes, d'un bassin et d'articulations dont la morphologie ressemble à celle d'un être humain. Dans les années 90, le Japon construit des robots qui parlent et dansent mais qui sont plus proches d'objets de divertissement que de supports de recherche. Avec BIP, les chercheurs d'Inria reproduisent le plus fidèlement possible la marche humaine, à la fois par la morphologie des membres et par le processus de contrôle dynamique de la marche. Un tel robot se révèle être un excellent outil d'analyse et de simulation : il permet d'expérimenter ce qui manque encore à la reproduction fine d'une marche humaine. Certains résultats de ces recherches ont été appliqués au domaine de l'assistance aux personnes présentant des déficiences motrices."
+            }
+         }
+      },
+      "lom:keyword": [
+        {
+          "lom:string": {
+            "-language": "fre",
+            "#text": "Robotique"
+          }
+        },
+        {
+          "lom:string": {
+            "-language": "fre",
+            "#text": "Marche Bipède"
+          }
+        },
+        {
+          "lom:string": {
+            "-language": "fre",
+            "#text": "Robot Marcheur"
+          }
+        }
+      ],
+      "lom:relation":[
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"ispartof"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 2"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Gérer le désequilibre"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_BIP/BIPn2.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Contrairement à la marche quadrupède, se dresser sur deux jambes est une configuration d’équilibre instable.  L’enfant met environ 2 ans pour apprendre à contrôler et exploiter le déséquilibre permanent du processus de la marche. Pour reproduire le mécanisme de la marche,  BIP dispose de capteurs de forces et d’inclinaisons (informations sensorielles) et d’actionneurs (muscles) au niveau de ses articulations (taille, bassin, genoux, chevilles). Le tout est modélisé mathématiquement et doit être contrôlé en temps réel. Ainsi, a-t-on compris en détail ce qu'est  le mécanisme de la marche humaine. "
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"ispartof"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 2"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Reproduire la locomotion"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_BIP/degresdeliberte.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"La marche sur deux jambes est une suite de déséquilibres en avant, associés à des déséquilibres latéraux du bassin, avec alternance de contacts des pieds sur le sol. Le déséquilibre du basin est le point de départ de la chaîne de locomotion bipède. Le modèle mathématique de la marche tient compte de l’ensemble des forces, accélérations, contraintes d’équilibres et contacts successifs au sol. Cela se traduit numériquement par le pilotage des 15 degrés de liberté de BIP, associés à ses articulations. Le système informatique de pilotage et de contrôle de la locomotion est concentré dans le buste du robot BIP : porter cette masse de métal et de silicium en déséquilibre instable augmente le défi posé par ce dispositif."
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"internal link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 3",
+                  "lom:entry":"/nao_master.html"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"NAO, Robot Social"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_NAO/NAO2.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Avec le robot Nao, il est possible d'expérimenter les différentes compétences audiovisuelles nécessaires au développement du concept de robot social. "
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"external link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 3",
+                  "lom:entry":"https://flowers.inria.fr"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Poppy"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/Flottant/Poppy3.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Petit robot humanoïde, open-source et imprimé en 3D créé par l'équipe de recherche Flowers."
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"external link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 4",
+                  "lom:entry":"https://interstices.info/marche"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"En savoir plus"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/images/shape3.svg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Recherche en marche."
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"external link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 4",
+                  "lom:entry":"https://interstices.info/jcms/c_19186/restaurer-la-marche-grace-a-une-puce "
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"En savoir plus"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/images/shape3.svg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Restaurer la marche grâce à une puce."
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"external link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 4",
+                  "lom:entry":"http://www.inrialpes.fr/bipop/bip.html"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"En savoir plus"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/images/shape3.svg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Une page web dediée au robot BIP."
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"external link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 4",
+                  "lom:entry":"http://hal.archives-ouvertes.fr/docs/00/07/26/24/PDF/RR-4017.pdf"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"En savoir plus"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/images/shape3.svg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Le rapport de recherche : Etude expérimentale des premières démarches du robot BIP"
+                  }
+               }
+            }
+         }
+      ]
+   }
+}

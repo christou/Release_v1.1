@@ -1,0 +1,273 @@
+{
+   "lom:lom":{
+      "-xmlns:lom":"http://ltsc.ieee.org/xsd/LOM",
+      "-xmlns:lomfr":"http://www.lom-fr.fr/xsd/LOMFR",
+      "lom:general":{
+         "lom:identifier":{
+            "lom:catalog":"URI",
+            "lom:entry":"/workbench_master.html"
+         },
+         "lom:title":{
+            "lom:string":{
+               "-language":"fre",
+               "#text":"Workbench - Un plan de travail virtuel"
+            }
+         },
+         "lom:language":"fre",
+         "lom:description":{
+            "lom:associatedPicture":{
+               "lom:catalog":"media/POI_Workbench/NAOposter.jpg"
+            },
+            "lom:associatedVideo": [
+            	{
+               "lom:catalog":"media/POI_Workbench/MBytes_WORKBENCH.mp4"
+               },
+               {
+               "lom:catalog":"media/POI_Workbench/MBytes_WORKBENCH.ogv"
+               },
+               {
+               "lom:catalog":"media/POI_Workbench/MBytes_WORKBENCH.webm"
+               }
+            ],
+            "lom:string":{
+               "-language":"fre",
+               "#text":"Dans les années 2000, 'le workbench' représentait l’une des toutes premières configurations de réalité virtuelle immersive en France. Cette plateforme a permis d’intégrer la visualisation immersive en relief et la sensation de contact physique avec un monde virtuel grâce à des interfaces tactiles à retour d’effort. Equipé de lunettes 3D actives et d’un système de suivi de sa tête, l'utilisateur peut visualiser la scène sous différents angles, toucher et manipuler virtuellement des éléments 3D, placés à portée de main. Utilisé pour la simulation de manipulation délicate, la visualisation de données scientifiques ou encore l'apprentissage chirurgical, le workbench a constitué un véritable outil d'expérimentation ; il a été adopté par certains industriels comme PSA Peugeot Citroën."
+            }
+         }
+      },
+      "lom:keyword": [
+        {
+          "lom:string": {
+            "-language": "fre",
+            "#text": "Réalité Virtuelle"
+          }
+        },
+        {
+          "lom:string": {
+            "-language": "fre",
+            "#text": "Lunettes 3D"
+          }
+        },
+        {
+          "lom:string": {
+            "-language": "fre",
+            "#text": "Interfaces à retour d'efford"
+          }
+        }
+      ],
+      "lom:relation":[
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"ispartof"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 2"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Produire une image en relief"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_Workbench/Visionstereoscopique.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"La vision binoculaire humaine intègre une perception du relief. Chaque œil voit une image légèrement différente, et c'est à partir de ces deux images, correspondant à des points de vue légèrement décalés, que le cerveau reconstruit une information de profondeur. Pour produire une telle sensation de relief, on calcule une image différente pour chaque œil, avec comme point de vue la position exacte de l'œil. Les lunettes 3D actives obturent successivement l’œil droit puis gauche, très rapidement, pendant qu’on affiche l’image correspondante pour l’autre oeil. Le cerveau humain recrée alors la sensation de relief, son système visuel ne percevant pas le rapide clignotement de l’affichage."
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"ispartof"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 2"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Comment simuler le toucher?"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_Workbench/Spidar.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Produire une sensation de contact à l’intérieur d’un grand espace virtuel d’environ 2 m², pour manipuler des objets virtuels, sans gêner leur visualisation n'est pas une tâche facile. C’est l’interface haptique SPIDAR installée sur le workbench, avec une bague passée au bout de son doigt, qui donne la sensation de toucher les objets virtuels. Cette bague est reliée à 4 fils contrôlés par des poulies motorisées, fixées aux 4 coins du workbench. Le contrôle de la longueur des fils en fonction de la position du doigt par rapport à l’objet, permet de freiner, arrêter ou guider l’utilisateur. Le système, très peu invasif, procure ainsi la sensation de contact direct des objets sans gêner la visualisation."
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"ispartof"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 2"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Qu'est ce que la réalité virtuelle?"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_Workbench/Lunettesactives.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"La  réalité virtuelle est une technologie qui consiste à immerger un utilisateur dans un univers visuel, sonore et sensoriel dans lequel il peut évoluer et avec lequel il peut interagir, le tout en  temps réel. Généralement, les sensations d’immersion et d'interaction sont produites grâce à un système de caméras ou capteurs qui capturent, suivent et analysent les mouvements et positions de marqueurs fixés sur l’utilisateur. Ces systèmes permettent de calculer et produire les environnements visuels et sensoriels associés aux positions et actions de l’utilisateur, en temps réel."
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"internal link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 3",
+                  "lom:entry":"/bip_master.html"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"BIP, Robot Bipède"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_BIP/BIPn2.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"BIP est le premier robot marcheur anthropomorphe: il est doté de jambes, d'un bassin et d'articulations dont la morphologie ressemble à celle d'un être humain. "
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"internal link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 3"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Grimage"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/POI_Grimage/Grimagen2.jpg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"La plateforme expérimentale Grimage permet d’explorer les domaines de la modélisation 3D multi-caméras, de la simulation physique et du calcul parallèle. "
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"external link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 4",
+                  "lom:entry":"https://interstices.info/plongee"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"En savoir plus"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/images/ensavoir.svg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Plongée en RV"
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"external link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 4",
+                  "lom:entry":"https://interstices.info/realite-virtuelle-experience"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"En savoir plus"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/images/ensavoir.svg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Expériences RV"
+                  }
+               }
+            }
+         },
+         {
+            "lom:kind":{
+               "lom:source":"LOMv1.0",
+               "lom:value":"external link"
+            },
+            "lom:resource":{
+               "lom:identifier":{
+                  "lom:catalog":"contenu niveau 4",
+                  "lom:entry":"https://interstices.info/geobench"
+               },
+               "lom:title":{
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"En savoir plus"
+                  }
+               },
+               "lom:description":{
+                  "lom:associatedPicture":{
+                     "lom:catalog":"media/images/ensavoir.svg"
+                  },
+                  "lom:string":{
+                     "-language":"fre",
+                     "#text":"Interaction haptique"
+                  }
+               }
+            }
+         }
+      ]
+   }
+}

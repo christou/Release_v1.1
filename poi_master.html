@@ -18,9 +18,7 @@
 		<link rel="shortcut icon" href="../favicon.ico">
 		
 		<link rel="stylesheet" type="text/css" href="css/style.css">  
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-
-		<link rel="stylesheet" type="text/css" href="css/login.css" />
+		<link rel="stylesheet" type="text/css" href="css/content.css" />
 		<link rel="stylesheet" type="text/css" href="css/rrssb.css" /> 
 
 		<style type="text/css">
@@ -326,11 +324,11 @@
 	<script src="js/jquery.appear.js"></script>
 	<script src="js/purl.js"></script>	
 	
-			<script src="js/snap.svg-min.js"></script>
-		<script src="js/modernizr.custom.js"></script>
+	<script src="js/snap.svg-min.js"></script>
+	<script src="js/modernizr.custom.js"></script>
 		
-				<script src="js/svgicons-config.js"></script>
-		<script src="js/svgicons.js"></script>
+	<script src="js/svgicons-config.js"></script>
+	<script src="js/svgicons.js"></script>
 		<script>
 			(function() {
 				// initialize all
@@ -371,7 +369,7 @@
 	            					]);
 
 	app.controller('contentController', function($http, $scope) {
-	  $http.get($.url(document.location).param('id')).
+	  $http.get('json/' + $.url(document.location).param('id')).
 	    success(function(data) {
 	      console.log(data); 	
 	      $scope.lom = data;
