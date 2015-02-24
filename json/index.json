@@ -1,0 +1,67 @@
+{
+   "lom:lom":{
+      "-xmlns:lom":"http://ltsc.ieee.org/xsd/LOM",
+      "-xmlns:lomfr":"http://www.lom-fr.fr/xsd/LOMFR",
+      "lom:classification":{
+      	 "lom:purpose":"Présenter la liste des POI et leur accorder de fichier des données .json",
+         "lom:taxonpath": [
+         	{
+         	"lom:source":"bip.json",
+         	"lom:taxum":{         
+	            "lom:ID":"1",
+	            "lom:entry":"BIP"
+	         	}
+	         },
+	         {
+         	"lom:source":"nao.json",
+         	"lom:taxum":{         
+	            "lom:ID":"2",
+	            "lom:entry":"NAO"
+	            }
+	         },
+	         {
+         	"lom:source":"grimage.json",
+         	"lom:taxum":{         
+	            "lom:ID":"3",
+	            "lom:entry":"Grimage"
+	            }
+	         },
+	         {
+         	"lom:source":"hall.json",
+         	"lom:taxum":{         
+	            "lom:ID":"4",
+	            "lom:entry":"Hall d'Inria"
+	            }
+	         },
+	         {
+         	"lom:source":"atelier.json",
+         	"lom:taxum":{         
+	            "lom:ID":"5",
+	            "lom:entry":"Atelier Robotique"
+	            }
+	         },
+	         {
+         	"lom:source":"bureau.json",
+         	"lom:taxum":{         
+	            "lom:ID":"6",
+	            "lom:entry":"Bureau Chercheur"
+	            }
+	         },
+	         {
+         	"lom:source":"cluster.json",
+         	"lom:taxum":{         
+	            "lom:ID":"7",
+	            "lom:entry":"Cluster"
+	            }
+	         },
+	         {
+         	"lom:source":"workbench.json",
+         	"lom:taxum":{         
+	            "lom:ID":"8",
+	            "lom:entry":"Workbench"
+	            }
+	         }	         	                	         	         	         	         
+   		]
+   	 }
+   }
+}

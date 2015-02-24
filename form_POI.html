@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>BIP</title>
+		
+		<!--Tous les css utilisés -->
+			
+		
+		<link rel="stylesheet" href="css/bootstrap.css">  
+		<link rel="stylesheet" href="css/bootstrap-theme.css">
+
+		<link rel="stylesheet" href="css/default.css">
+		<link rel="stylesheet" href="css/jquery.share.css">
+		<link rel="shortcut icon" href="../favicon.ico">
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css">  
+		<link rel="stylesheet" type="text/css" href="css/content.css" />
+		<link rel="stylesheet" type="text/css" href="css/rrssb.css" /> 
+
+		<style type="text/css">
+           h1 {text-align: center;
+		   font-size: 38px;
+		   line-height:40px;}
+        </style>
+		
+		
+
+		
+    </head>
+	 
+	<!-- /////////////////////////////////////////////////////////////////////// -->		 	    
+	<body onload="toggleByClass('english');">
+	
+	<!--Début Barre de menu-->
+	   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	      <div class="container-fluid">
+	      		<a class="navbar-brand" href="index.html">MountainBytes</a>
+     			<a class="navbar-brand navbar-right" href="zxing://scan/?ret=http%3A%2F%2Fchristou.github.io/Release_v1.0_FdS%2F%7BCODE%7D">Scan un QR-code</a>
+	   	      <div class="navbar-form .checkbox">
+				    Afficher les champs pour version bilingue <input type="checkbox"  onclick="toggleByClass('english');"> 
+	  		  </div>
+  		  </div>
+   </nav>
+
+	   <!-- Fin barre de menu -->
+
+<!-- /////////////////////////////////////////////////////////////////////////////////// -->		
+<!-- ------- forme ------------ -->
+						    
+	<form id="form" class="form-horizontal">
+	
+   <!---------- Début contenu -------------->
+        <!-- Contenu Master -->
+		<section id="master" class="featured">
+			<div class="container"> 
+				
+				<div class="row mar-bot40">
+				
+					<div class="col-md-12 ">
+					<!-- /////////////////////////////////////////////////////////////////////////////////// -->		
+					<!-- ------- Début du div pour la forme ------------ -->
+								    <div class="form-group">
+								        <label for="inputTitle" class="control-label col-xs-2">Titre</label>
+								        <div class="col-xs-8">
+								            <!--  
+								            	<input class="form-control" id="inputTitle" placeholder="Le titre du POI"></input>
+								             -->
+								             <input class="form-control" name="lom[general][title]" value="Le titre du POI"></input>
+										</div>
+									</div>	
+									
+									<!-- english version -->
+									<div class="english form-group">
+										<label for="inputTitle_en" class="control-label col-xs-2">Title in english</label>
+								        <div class="col-xs-8">
+								            <input class="form-control" id="inputTitle_en" placeholder="The POI title"></input>
+										</div>
+									</div>
+										
+					
+					<!-- /////////////////////////////////////////////////////////////////////////////////// -->		
+				
+						 <div class="col-lg-6 video">
+						 <p>
+							<img src="media/500px-Lightblue_empty_grid.svg.png" width="100%" height="100%"></img>
+							<button type="button" class="btn btn-primary btn-md active">Browse vidéo</button>
+							<button type="button" class="btn btn-default btn-md active">Browse poster image</button>
+						 </p>
+							<!-- des boutons des réseaux sociaux -->								  
+
+								
+					        <label for="inputSocialNetworks" class="control-label">Personnalisez le message dans les réseaux sociaux</label>
+					        <input class="form-control" id="inputSocialNetworks" placeholder="Ex. Je suis à Inria Grenoble et je visite la salle Cluster"></input>
+							
+
+							
+
+							  
+                         </div>
+						 <div class="col-lg-6 align-justified">
+							<p>
+								  <div class="form-group">
+								    <label for="inputMaster" class="col-sm-2 control-label">Texte Master</label>
+								    <div class="col-sm-10">
+								    <!--  
+								      <textarea rows="12" class="form-control" id="inputMaster" placeholder="Le texte master du POI"></textarea>
+								     -->
+								    	<input class="form-control" name="lom[general][description]" value="Le texte master du POI"></input>
+								    </div>
+								  </div>
+								  <div class="english form-group">
+								    <label for="inputMaster_en" class="col-sm-2 control-label">Master Text</label>
+								    <div class="col-sm-10">
+								      <textarea rows="12" class="form-control" id="inputMaster_en" placeholder="Master text in english"></textarea>
+								    </div>
+								  </div>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		
+		<!------------- Contenus N2 ------------->
+		<section id="section-services" class="n2">
+		<div class="container"> 
+		
+			<div class="row mar-bot40">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+					<div class="align-justified">
+									<div class="form-group">
+								        <label for="inputTitleN2" class="control-label col-xs-2">Titre du N2</label>
+								        <div class="col-xs-10">
+								        <!-- 
+								            <input class="form-control" id="inputTitleN2" placeholder="Le titre de l'élément N2"></input>
+										 -->
+										 	<input class="form-control" name="lom[relation][ressource][title]" value="Le titre de l'élément N2"></input>
+										</div>
+									</div>
+									<div class="english form-group">
+								        <label for="inputTitleN2_en" class="control-label col-xs-2">N2 title</label>
+								        <div class="col-xs-10">
+								            <input class="form-control" id="inputTitleN2_en" placeholder="N2 title in english"></input>
+										</div>
+									</div>										
+						<img class="" src="media/500px-Lightblue_empty_grid.svg.png" width="100%" height="100%"></img>
+						<button type="button" class="btn btn-primary btn-md active">Browse vidéo ou image</button>
+						<p>
+									<div class="form-group">
+								        <label for="inputDescriptionN2" class="control-label col-xs-2">Description du N2</label>
+								        <div class="col-xs-10">
+								        <!-- 
+								            <textarea rows="4" class="form-control" id="inputDescriptionN2" placeholder="La description de l'élément N2"></textarea>
+										 -->
+										 	<input class="form-control" name="lom[relation][ressource][description]" value="La description de l'élément N2"></input>
+										</div>
+									</div>
+									<div class="english form-group">
+								        <label for="inputDescriptionN2_en" class="control-label col-xs-2">N2 description</label>
+								        <div class="col-xs-10">
+								            <textarea rows="4" class="form-control" id="inputDescriptionN2_en" placeholder="N2 description in english"></textarea>
+										</div>
+									</div>		
+						</p>
+					</div>
+				</div>
+					
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+					<div class="align-justified">
+									<div class="form-group">
+								        <label for="inputTitleN2" class="control-label col-xs-2">Titre du N2</label>
+								        <div class="col-xs-10">
+								            <input type="titleN2" class="form-control" id="inputTitleN2" placeholder="Le titre de l'élément N2"></input>
+										</div>
+									</div>
+									<div class="english form-group">
+								        <label for="inputTitleN2_en" class="control-label col-xs-2">N2 title</label>
+								        <div class="col-xs-10">
+								            <input type="titleN2_en" class="form-control" id="inputTitleN2_en" placeholder="N2 title in english"></input>
+										</div>
+									</div>										
+						<img class="" src="media/500px-Lightblue_empty_grid.svg.png" width="100%" height="100%"></img>
+						<button type="button" class="btn btn-primary btn-md active">Browse vidéo ou image</button>
+						<p>
+									<div class="form-group">
+								        <label for="inputDescriptionN2" class="control-label col-xs-2">Description du N2</label>
+								        <div class="col-xs-10">
+								            <textarea rows="4" type="descriptionN2" class="form-control" id="inputDescriptionN2" placeholder="La description de l'élément N2"></textarea>
+										</div>
+									</div>
+									<div class="english form-group">
+								        <label for="inputDescriptionN2_en" class="control-label col-xs-2">N2 description</label>
+								        <div class="col-xs-10">
+								            <textarea rows="4" type="descriptionN2_en" class="form-control" id="inputDescriptionN2_en" placeholder="N2 description in english"></textarea>
+										</div>
+									</div>		
+						</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+		</section>
+		
+		<!-------------- Contenus N3 ------------>
+		<section id="section-services" class="n3">
+
+
+		</section>
+		
+		<!-------------- Contenus N4 ------------>
+		
+		<section class="si-icons si-icons-hover n4">
+
+		</section>
+		
+
+		<!-- DOWNLOAD FORM BUTTON-->	
+		
+		<section id="blockquote footer" class="panel-footer">
+			<div class="container">
+				<div class="row animated opacity mar-bot20 col-sm-12 align-center" >
+		    		<input type="submit"> 
+		    		<pre id="result">
+					</pre>
+				</div>
+			</div>
+		</section>
+		
+		<!--Début pied de page avec lien réseaux sociaux-->	
+		
+		<section id="footer" class="section footer">
+		<div class="container">
+			<div class="row animated opacity mar-bot20" data-andown="fadeIn" data-animation="animation">
+				<div class="col-sm-12 align-center">
+                    <ul class="social-network social-circle">
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>				
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+	
+
+	</form>
+<!-- ----------------------FIN DIV ANGULAR------------------------------------------- -->	
+	<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>	
+
+
+
+		
+<!-- tous les scipts utilisés -->
+	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+
+	<script src="js/skrollr.min.js"></script>		
+	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+	<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.appear.js"></script>
+	<script src="js/purl.js"></script>	
+	
+	<script src="js/snap.svg-min.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+		
+	<script src="js/svgicons-config.js"></script>
+	<script src="js/svgicons.js"></script>
+		<script>
+			(function() {
+				// initialize all
+				
+				[].slice.call( document.querySelectorAll( '.si-icons-default > .si-icon' ) ).forEach( function( el ) {
+					var svgicon = new svgIcon( el, svgIconConfig );
+				} );
+
+				new svgIcon( document.querySelector( '.si-icons-hover .si-icon-zoom' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 128, h : 128 } } );
+				
+			})();
+		</script>
+		
+	<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>  
+	<script src="js/classie.js"></script>
+	<!-- script des buttons des réseaux sociaux avec Sharrre -->
+	<script src="js/rrssb.min.js"></script>
+
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+	<script src="bower_components/videogular/videogular.js"></script>
+	<script src="bower_components/videogular-controls/controls.js"></script>
+	<script src="bower_components/videogular-overlay-play/overlay-play.js"></script>
+	<script src="bower_components/videogular-poster/poster.js"></script>
+	<script src="bower_components/videogular-buffering/buffering.js"></script>
+	<script src="js/main.js"></script>
+  	<script src="js/jquery.serialize-object.js"></script>
+
+	<script type="text/javascript">
+	/////////// pour cacher ou montrer les champs en anglais
+	function toggleByClass(className) {
+	    $("."+className).toggle();
+	}
+
+	</script>
+	<script>
+	
+	////////// pour seriraliser les données de la forme
+	$(function() {
+	    $('form').submit(function() {
+	        $('#result').text(JSON.stringify($('form').serializeObject()));
+	        return false;
+	    });
+	});
+	</script>
+
+	<script>
+	var app = angular.module('myApp', [
+	               					"ngSanitize",
+	            					"com.2fdevs.videogular",
+	            					"com.2fdevs.videogular.plugins.controls",
+	            					"com.2fdevs.videogular.plugins.overlayplay",
+	            					"com.2fdevs.videogular.plugins.poster"
+	            					]);
+
+	app.controller('contentController', function($http, $scope) {
+	  $http.get('json/' + $.url(document.location).param('id')).
+	    success(function(data) {
+	      console.log(data); 	
+	      $scope.lom = data;
+	    }).
+	    error(function(data) {
+	      // log error
+	    });
+	});
+
+
+		</script>						
+
+	
+  </body>
+</html>
